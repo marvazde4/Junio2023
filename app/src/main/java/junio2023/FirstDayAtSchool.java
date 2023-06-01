@@ -23,7 +23,7 @@ public class FirstDayAtSchool {
 	public void prepareMyBag() {
 		
 		schoolbag.put("Notebooks", 1);
-		schoolbag.put("Pens", 1);
+		schoolbag.put("Pens", 1); /*añadido*/
 	}
 
 	public void addThings(String thingName, int number) {
