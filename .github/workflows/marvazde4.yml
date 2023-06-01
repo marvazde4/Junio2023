@@ -57,7 +57,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '16'
-      - name: Construyendo y probando el test
+      - name: Construyendo y probando publicando
         run: |
           chmod +x gradlew        
           ./gradlew publish
